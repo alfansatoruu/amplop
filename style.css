@@ -34,6 +34,7 @@ body {
   margin: 0;
   padding: 1rem;
 }
+
 .envelop {
   width: 35rem;
   height: 30rem;
@@ -48,32 +49,31 @@ body {
 .glowing-text {
   font-size: 28px;
   font-weight: bold;
-  background: linear-gradient(
-      90deg,
+  background: linear-gradient(90deg,
       #fff 0%,
       #f990c5 25%,
       #41dacd 50%,
       #ff69b4 75%,
-      #fff 100%
-  );
+      #fff 100%);
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: shine 3s linear infinite;
-  text-shadow: 
-      0 0 10px rgba(255,255,255,0.2),
-      0 0 20px rgba(255,255,255,0.2),
-      0 0 30px rgba(255,255,255,0.2);
+  text-shadow:
+    0 0 10px rgba(255, 255, 255, 0.2),
+    0 0 20px rgba(255, 255, 255, 0.2),
+    0 0 30px rgba(255, 255, 255, 0.2);
 }
 
 @keyframes shine {
   0% {
-      background-position: 200% center;
+    background-position: 200% center;
   }
+
   100% {
-      background-position: -200% center;
+    background-position: -200% center;
   }
 }
 
@@ -92,6 +92,7 @@ body {
     width: 90%;
     margin: 5px auto;
   }
+
   .js-up-paper {
     width: 95%;
   }
@@ -102,6 +103,7 @@ body {
     width: 85%;
     margin: 8px auto;
   }
+
   .js-up-paper {
     width: 90%;
   }
@@ -112,6 +114,7 @@ body {
     width: 80%;
     margin: 10px auto;
   }
+
   .js-up-paper {
     width: 85%;
   }
@@ -122,6 +125,7 @@ body {
     width: 70%;
     margin: 12px auto;
   }
+
   .js-up-paper {
     width: 80%;
   }
