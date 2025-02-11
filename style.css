@@ -36,8 +36,8 @@ body {
 }
 
 .envelop {
-  width: 35rem;
-  height: 30rem;
+  width: 30rem;
+  height: 25rem;
   position: absolute;
   left: 0;
   right: 0;
@@ -267,7 +267,7 @@ body {
 
 .note:hover {
   cursor: pointer;
-  height: 45%;
+  height: 55%;
 }
 
 .note__text {
@@ -276,7 +276,7 @@ body {
 }
 
 .note__text p {
-  font-size: 5rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
   text-align: center;
 }

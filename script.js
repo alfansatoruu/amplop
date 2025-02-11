@@ -1,7 +1,7 @@
 
-let mobile_media_query = window.matchMedia("(max-width: 480px)");
+let mobile_media_query = window.matchMedia("(max-width: 760px)");
 let tablet_media_query = window.matchMedia("(min-width: 481px) and (max-width: 768px)");
-let small_desktop_media_query = window.matchMedia("(min-width: 769px) and (max-width: 1024px)");
+
 let large_desktop_media_query = window.matchMedia("(min-width: 1025px)");
 
 
