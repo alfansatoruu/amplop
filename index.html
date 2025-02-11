@@ -3,54 +3,62 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>ungkapan</title>
+    <title>Ungkapan</title>
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Sofia'>
     <link rel="stylesheet" href="style.css">
-
+    <!-- Android (Chrome) -->
+    <meta name="theme-color" content="#ff9a9e">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#ff9a9e">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#ff9a9e">
+    <!-- Untuk PWA (Progressive Web App) -->
+    <meta name="application-name" content="Your App Name">
+    <meta name="mobile-web-app-capable" content="yes">
 </head>
 
-<body>
-    <!-- partial:index.partial.html -->
-    <html>
+<body class="scissors">
+    <audio id="background-music" style="display: none;" loop>
+        <source src="." type="audio/mp3">
+    </audio>
+    `;
 
-    <body class="scissors">
-        <div class="envelop">
-            <div class="envelop__front-paper"></div>
-            <div class="envelop__back-paper"></div>
-            <div class="envelop__up-paper js-up-paper"></div>
-            <div class="envelop__sticker js-sticker"></div>
-            <div class="envelop__false-sticker"></div>
-            <div class="envelop__content js-envelop-content">
-                <div class="love-notes">
-                    <div class="note js-note">
-                        <div class="note__text">
-                            <p>
-                                "Jika mencintaimu adalah mimpi, aku rela terlelap selamanya. Karena bersamamu, dunia
-                                terasa lebih indah dan penuh warna
-                            </p>
-                        </div>
+    <div class="envelop">
+        <div class="envelop__front-paper"></div>
+        <div class="envelop__back-paper"></div>
+        <div class="envelop__up-paper js-up-paper"></div>
+        <div class="envelop__sticker js-sticker"></div>
+        <div class="envelop__false-sticker"></div>
+        <div class="envelop__content js-envelop-content">
+            <div class="love-notes">
+                <div class="note js-note">
+                    <div class="note__text">
+                        <p>Jika mencintaimu adalah mimpi, aku rela terlelap selamanya. Karena bersamamu, dunia
+                            terasa lebih indah dan penuh warna
+                        </p>
                     </div>
-                    <div class="note js-note">
-                        <div class="note__text">
-                            <p>Aku tidak butuh bintang di langit, karena senyummu sudah cukup menerangi seluruh duniaku.</p>
-                        </div>
+                </div>
+                <div class="note js-note">
+                    <div class="note__text">
+                        <p>Aku tidak butuh bintang di langit, karena senyummu sudah cukup menerangi seluruhnya.
+                        </p>
                     </div>
-                    <div class="note js-note">
-                        <div class="note__text">
-                            <p>Aku mungkin tidak sempurna, tapi mencintaimu adalah hal yang selalu kulakukan dengan sempurna</p>
-                            <p>Ini adalah cinta! &hearts;.</p>
-                        </div>
+                </div>
+                <div class="note js-note">
+                    <div class="note__text">
+                        <p>Aku tak sempurna, tapi mencintaimu selalu sempurna.</br>
+                            Ini adalah cinta! &hearts;.
+                        </p>
+
                     </div>
                 </div>
             </div>
         </div>
-    </body>
+    </div>
 
-    </html>
-    <!-- partial -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js'></script>
     <script src="script.js"></script>
-
 </body>
 
 </html>
