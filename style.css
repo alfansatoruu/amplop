@@ -46,6 +46,17 @@ body {
   margin: auto;
 }
 
+.glowing-text2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: bold;
+  background-size: 200% auto;
+  color: #928f8f;
+
+
+}
+
 .glowing-text {
   font-size: 28px;
   font-weight: bold;
