@@ -1,8 +1,4 @@
 
-let mobile_media_query = window.matchMedia("(max-width: 760px)");
-let tablet_media_query = window.matchMedia("(min-width: 481px) and (max-width: 768px)");
-
-let large_desktop_media_query = window.matchMedia("(min-width: 1025px)");
 
 
 const backgroundMusic = new Audio('music-gamma.mp3');
