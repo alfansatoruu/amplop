@@ -35,11 +35,13 @@ body {
   padding: 1rem;
 }
 .envelop {
-  width: 15rem;
-  height: 10rem;
+  width: 35rem;
+  height: 30rem;
   position: absolute;
   left: 0;
   right: 0;
+  top: 0;
+  bottom: 0;
   margin: auto;
 }
 
@@ -270,8 +272,8 @@ body {
 }
 
 .note__text p {
-  font-size: 0.8rem;
-  margin-bottom: 2rem;
+  font-size: 5rem;
+  margin-bottom: 1rem;
   text-align: center;
 }
 
